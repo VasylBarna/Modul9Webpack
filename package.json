@@ -1,24 +1,26 @@
 {
-  "name": "Modul9Webpack",
+  "name": "modul9webpack",
   "version": "1.0.0",
-  "description": "Modul9Webpack-repeta",
+  "description": "modul9webpack-repeta",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VasylBarna/Modul9Webpack.git"
+    "url": "git+https://github.com/VasylBarna/modul9webpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VasylBarna/Modul9Webpack/issues"
+    "url": "https://github.com/VasylBarna/modul9webpack/issues"
   },
-  "homepage": "https://github.com/VasylBarna/Modul9Webpack#readme",
+  "homepage": "https://github.com/VasylBarna/modul9webpack#readme",
   "devDependencies": {
     "webpack": "^5.35.1",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
